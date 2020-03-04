@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class TranslateService {
-  url = 'https://translation.googleapis.com/language/translate/v2?key=AIzaSyCf0Xy0OnhxlduyEt3K8zP-sOuu-l_u6uA';
+  url = 'https://translation.googleapis.com/v3/projects/*:translateText?alt=json&key=AIzaSyAMmzRi9p2DFy_NPr00N5Rv03tud044TPQ';
 
   constructor(private http: HttpClient) { }
 
