@@ -10,7 +10,7 @@ export class CardComponent implements OnInit {
   @Input() imageUrl = '';
   @Input() username = '';
   @Input() content = '';
-  
+
   constructor() { }
 
   ngOnInit(): void {
