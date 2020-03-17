@@ -20,6 +20,18 @@ export class ViewsHomeComponent implements OnInit {
       label: 'Satisfactoin Score'
     },
   ];
+  items = [
+    {
+      image: '/assets/images/couch.jpeg',
+      title: 'Couch',
+      desc: 'This is a fantastic couch to sit on'
+    },
+    {
+      image: '/assets/images/dresser.jpeg',
+      title: 'Dresser',
+      desc: 'This is a great dresser to put stuff in'
+    }
+  ];
 
   constructor() { }
 
